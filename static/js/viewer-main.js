@@ -63,11 +63,11 @@ window.onload = function () {
   };
   var viewer = new Viewer(pictures, options);
 
-  function toggleButtons(mode) {
-    var targets;
-    var target;
-    var length;
-    var i;
+  //function toggleButtons(mode) {
+    //var targets;
+    //var target;
+    //var length;
+    //var i;
 
     //if (/modal|inline|none/.test(mode)) {
     //  targets = buttons.querySelectorAll('button[data-enable]');
@@ -91,7 +91,6 @@ window.onload = function () {
     }
   }
 
-  //toggleButtons(options.inline ? 'inline' : 'modal');
 
   toggles.onchange = function (event) {
     var e = event || window.event;
