@@ -69,19 +69,19 @@ window.onload = function () {
     var length;
     var i;
 
-    if (/modal|inline|none/.test(mode)) {
-      targets = buttons.querySelectorAll('button[data-enable]');
+    //if (/modal|inline|none/.test(mode)) {
+    //  targets = buttons.querySelectorAll('button[data-enable]');
 
-      for (i = 0, length = targets.length; i < length; i++) {
-        target = targets[i];
-        target.disabled = true;
+    //  for (i = 0, length = targets.length; i < length; i++) {
+    //    target = targets[i];
+    //    target.disabled = true;
 
-        if (String(target.getAttribute('data-enable')).indexOf(mode) > -1) {
-          target.disabled = false;
-        }
-      }
-    }
-  }
+    //    if (String(target.getAttribute('data-enable')).indexOf(mode) > -1) {
+    //      target.disabled = false;
+    //    }
+    //  }
+    //}
+  //}
 
   function addEventListener(element, type, handler) {
     if (element.addEventListener) {
@@ -91,7 +91,7 @@ window.onload = function () {
     }
   }
 
-  toggleButtons(options.inline ? 'inline' : 'modal');
+  //toggleButtons(options.inline ? 'inline' : 'modal');
 
   toggles.onchange = function (event) {
     var e = event || window.event;
