@@ -296,7 +296,14 @@ NOTE: This is main stylesheet of the template.
 /*================================================
     00. base css
 ==================================================*/
-.
+video { 
+	position: fixed;
+	bottom: 0px;  
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+}
 a:focus { outline: 0 solid }
 img {
     max-width: 100%;
