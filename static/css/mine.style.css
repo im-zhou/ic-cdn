@@ -612,13 +612,14 @@ a.banner-icon:focus{
     text-align: center;
 }
 .social-icon a{
-    width: 32px;
-    height: 32px;
+	position: relative;
+	height:50px;
+	width:135px;
     color: #fff;
     /*background: #000;*/
     display: inline-table;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 5px;
     margin-bottom: 15px;
 }
@@ -627,8 +628,6 @@ a.banner-icon:focus{
     vertical-align: middle;
 }
 .social-icon a:hover{
-
-    
 }
 .about-text {
   padding: 30px 0;
@@ -643,7 +642,7 @@ a.banner-icon:focus{
 }
 .btn, a.btn {
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     height: 48px;
     letter-spacing: 0.2em;
