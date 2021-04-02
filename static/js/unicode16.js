@@ -3,13 +3,13 @@ function uz(){
     var v = $("json_input").value;
 	var r = v.match(/\\u[0-9a-fA-F]{4}/g);
 	if(r == null) {
-		$("txt2").value = v;
+		$("json_input").value = v;
 		return false;
 	}
 	for(var i = 0; i < r.length; i++){
 		v = v.replace(r[i],unescape(r[i].replace("\\u","%u")));
 	}
-    $("txt2").value = v;
+    $("json_input").value = v;
 }
 function zu(){
     var v = $("json_input").value.split("");
@@ -24,5 +24,5 @@ function zu(){
             ascii += v[i];
         }
     }
-    $("txt2").value = ascii;
+    $("json_input").value = ascii;
 }
