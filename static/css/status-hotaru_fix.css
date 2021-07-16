@@ -1,13 +1,13 @@
 @media only screen and (min-width: 992px) {
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
 @media only screen and (max-width: 992px) {
 	#location, tr td:nth-child(5)		{ display:none; visibility:hidden; }
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
@@ -16,7 +16,7 @@
 	#location, tr td:nth-child(5)		{ display:none; visibility:hidden; }
 	#uptime, tr td:nth-child(6)			{ display:none; visibility:hidden; }
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
@@ -26,7 +26,7 @@
 	#uptime, tr td:nth-child(6)			{ display:none; visibility:hidden; }
 	#load, tr td:nth-child(7)			{ display:none; visibility:hidden; }
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
@@ -37,7 +37,7 @@
 	#traffic, tr td:nth-child(9)		{ display:none; visibility:hidden; }
 	#load, tr td:nth-child(7)			{ display:none; visibility:hidden; }
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
@@ -54,7 +54,7 @@
 	#hdd, tr td:nth-child(12)			{ display:none; visibility:hidden; }
 	#ping, tr td:nth-child(13)			{ display:none; visibility:hidden; }
 	.hotaru-cover {
-		background: url(../pictures/status-bg.jpg.jpg) no-repeat;
+		background: url(../pictures/status-bg.jpg) no-repeat;
 		background-size: 100%; 
 	}
 }
