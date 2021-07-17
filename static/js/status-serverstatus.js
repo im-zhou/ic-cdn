@@ -72,7 +72,7 @@ function bytesToSize(bytes, precision, si)
 }
 
 function uptime() {
-	$.getJSON("http://92.38.130.52:52132/json/stats.json", function(result) {
+	$.getJSON("json/stats.json", function(result) {
 		$("#loading-notice").remove();
 		if(result.reload)
 			setTimeout(function() { location.reload(true) }, 1000);
@@ -188,7 +188,7 @@ function uptime() {
 				TableRow.children["uptime"].innerHTML = result.servers[i].uptime;
 
 				// Load: default load_1, you can change show: load_1, load_5, load_15
-				if(result.servers[i].load == -1) {
+				if(result.servers[i].load == 99.0) {
 				    TableRow.children["load"].innerHTML = "–";
 				} else {
 				    TableRow.children["load"].innerHTML = result.servers[i].load_1.toFixed(2);
