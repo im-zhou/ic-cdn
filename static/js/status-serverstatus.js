@@ -188,8 +188,8 @@ function uptime() {
 				TableRow.children["uptime"].innerHTML = result.servers[i].uptime;
 
 				// Load: default load_1, you can change show: load_1, load_5, load_15
-				if(result.servers[i].load == 99.0) {
-				    TableRow.children["load"].innerHTML = "–";
+				if(result.servers[i].load_1 == 9.90) {
+				    TableRow.children["load"].innerHTML = "-";
 				} else {
 				    TableRow.children["load"].innerHTML = result.servers[i].load_1.toFixed(2);
 				}
