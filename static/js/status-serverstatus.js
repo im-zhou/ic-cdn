@@ -276,7 +276,7 @@ function uptime() {
 
 				// tcp, udp, process, thread count
 				ExpandRow[0].children["expand_tupd"].innerHTML = "TCP/UDP/进/线: " + result.servers[i].tcp_count + " / " + result.servers[i].udp_count + " / " + result.servers[i].process_count+ " / " + result.servers[i].thread_count;
-				ExpandRow[0].children["expand_ping"].innerHTML = "移动/联通/电信: " + result.servers[i].time_10086 + "ms / " + result.servers[i].time_189 + "ms / " + result.servers[i].time_10010 + "ms"
+				ExpandRow[0].children["expand_ping"].innerHTML = "移动/联通/电信: " + result.servers[i].time_10086 + "ms / " + result.servers[i].time_10010 + "ms / " + result.servers[i].time_189 + "ms"
 
                 // ping
                 var PING_10010 = result.servers[i].ping_10010.toFixed(0);
@@ -286,7 +286,7 @@ function uptime() {
                     TableRow.children["ping"].children[0].children[0].className = "progress-bar progress-bar-danger";
                 else
                     TableRow.children["ping"].children[0].children[0].className = "progress-bar progress-bar-success";
-	            TableRow.children["ping"].children[0].children[0].innerHTML = PING_10086 + "% | " + PING_189 + "% | " + PING_10010 + "%";
+	            TableRow.children["ping"].children[0].children[0].innerHTML = PING_10086 + "% | " + PING_10010 + "% | " + PING_189 + "%";
 
 				// Custom
 				if (result.servers[i].custom) {
