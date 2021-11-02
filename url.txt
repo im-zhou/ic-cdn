@@ -1,0 +1,2 @@
+https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/
+https://cdn.jsdelivr.net/gh/skyxingcheng/ic-cdn@master/static/images
